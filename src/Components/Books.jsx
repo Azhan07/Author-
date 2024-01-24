@@ -65,9 +65,9 @@ const Books = () => {
                     <h1 className='font-bold text-[45px]'>My Other Books</h1>
                     <div className='grid grid-rows-2 grid-flow-col gap-4 gap-y-10'>
                         {
-                            data.map((item) => {
+                            data.map((item, id) => {
                                 return (
-                                    <div class="da relative flex min-h-screen flex-col justify-center overflow-hidden ">
+                                    <div key={id} class="da relative flex min-h-screen flex-col justify-center overflow-hidden ">
                                         <div class="absolute inset-0 bg-center dark:bg-black"></div>
                                         <div class="group relative m-0 flex  w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
                                             <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">

@@ -35,9 +35,9 @@ const Chapter = () => {
                 <h1 className='text-center font-bold text-[60px] pb-10'>What's Inside The Book</h1>
                 <div className='grid grid-rows-2 grid-flow-col gap-4 gap-y-10'>
                     {
-                        data.map((item)=>{
+                        data.map((item, id)=>{
                             return(
-                             <div className='p-7 border-r-4 shadow-lg bg-slate-200'>
+                             <div key={id} className='p-7 border-r-4 shadow-lg bg-slate-200'>
                                    <h1 className='font-bold text-[32px] mb-5'>{item.title}</h1>
                                    <p >{item.para}</p>
                              </div>

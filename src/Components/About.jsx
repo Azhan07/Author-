@@ -28,9 +28,9 @@ export const About = () => {
                         <h1 className='text-[60px] font-bold'>About The Book</h1>
                         <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reprehenderit.</p>
                         {
-                            data.map((item) => {
+                            data.map((item, id) => {
                                 return (
-                                    <div>
+                                    <div key={id}>
                                         <h1 className='text-[32px] mb-3 font-bold'>{item.title}</h1>
                                         <p className='mb-5'>{item.para}</p>
                                     </div>

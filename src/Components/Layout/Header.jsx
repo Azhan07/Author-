@@ -33,7 +33,7 @@ const Header = () => {
               
             {navlink.map((link, index) => {
           return (
-            <ul className='flex mx-6'>
+            <ul key={index} className='flex mx-6'>
               <Link href={link.path}>
                 <li className='hover:underline hover:text-blue-400 text-lg' key={link.id}>{link.title}</li>
               </Link>
