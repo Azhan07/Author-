@@ -1,4 +1,4 @@
-import {FC} from 'react'
+import {} from 'react'
 
 const Button= ({text}) => {
   return (
