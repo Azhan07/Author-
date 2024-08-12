@@ -32,7 +32,7 @@ const Chapter = () => {
         <Wrapper>
             <section className='pt-[5%]'>
 
-                <h1 className='text-center font-bold text-[60px] pb-10'>What's Inside The Book</h1>
+                <h1 className='text-center font-bold text-[60px] pb-10'>What&#39;s Inside The Book</h1>
                 <div className='grid grid-rows-2 grid-flow-col gap-4 gap-y-10'>
                     {
                         data.map((item, id)=>{
@@ -51,4 +51,4 @@ const Chapter = () => {
     )
 }
 
-export default Chapter
+export default Chapter;

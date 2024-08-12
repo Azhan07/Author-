@@ -22,7 +22,7 @@ export const About = () => {
             <section className='pt-[5%]'>
                 <div className='flex justify-evenly'>
                     <div>
-                        <Image src={bookimg} className='w-[100%]' />
+                        <Image src={bookimg} className='w-[100%]' alt='bookimg' />
                     </div>
                     <div>
                         <h1 className='text-[60px] font-bold'>About The Book</h1>

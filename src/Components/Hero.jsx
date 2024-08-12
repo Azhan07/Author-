@@ -14,7 +14,7 @@ const Hero = () => {
             <Button text={"Buy Now for 22$"}/>
         </div>
         <div>
-            <Image src={heroimg} className='w-[100%]'/>
+            <Image src={heroimg} className='w-[100%]' alt='heroimg'/>
         </div>
     </div>
    </section>

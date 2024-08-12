@@ -71,7 +71,7 @@ const Books = () => {
                                         <div class="absolute inset-0 bg-center dark:bg-black"></div>
                                         <div class="group relative m-0 flex  w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
                                             <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-                                                <Image src={item.img} className='w-[100%]'/>
+                                                <Image src={item.img} className='w-[100%]' alt=''/>
                                             </div>
                                             <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
                                                 <h1 class="font-serif text-2xl font-bold text-white shadow-xl">{item.title}</h1>

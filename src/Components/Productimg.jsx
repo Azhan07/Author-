@@ -12,19 +12,19 @@ const Productimg = () => {
 <section className='pt-[5%]'>
         <div className='grid grid-rows-1 grid-flow-col gap-4'>
             <div>
-            <Image src={product1} className='w-[75%]'/>
+            <Image src={product1} className='w-[75%]' alt='productimg1'/>
             </div>
             <div>
-            <Image src={product2} className='w-[75%]'/>
+            <Image src={product2} className='w-[75%]' alt='productimg2'/>
             </div>
             <div>
-            <Image src={product3} className='w-[75%]'/>
+            <Image src={product3} className='w-[75%]' alt='productimg3'/>
             </div>
             <div>
-            <Image src={product4} className='w-[75%]'/>
+            <Image src={product4} className='w-[75%]' alt='productimg4'/>
             </div>
             <div>
-            <Image src={product5} className='w-[75%]'/>
+            <Image src={product5} className='w-[75%]' alt='productimg5'/>
             </div>
         </div>
     </section> 
